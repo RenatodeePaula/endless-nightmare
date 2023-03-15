@@ -1,0 +1,39 @@
+body {
+    box-sizing: border-box;
+    background: url(./assets/background.svg) no-repeat ;
+     height: 100;
+
+}
+
+:root {
+  
+ 
+}
+
+main {
+    padding: 160px 183px 341px;
+    text-align: center;
+}
+
+
+
+main h3 {
+    color: #FFFFFF;    
+    
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;   
+}
+
+main h3 span {
+    color:#FFC700;
+}
+
+main h1 {
+    color: #FFC700;
+    font-family: 'Emilys Candy';
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+}
