@@ -15,8 +15,6 @@ main {
     text-align: center;
 }
 
-
-
 main h3 {
     color: #FFFFFF;    
     
@@ -36,4 +34,12 @@ main h1 {
     font-weight: 400;
     font-size: 64px;
     line-height: 80px;
+}
+
+main p {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
