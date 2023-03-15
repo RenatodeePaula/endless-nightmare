@@ -1,8 +1,11 @@
-body {
+* {
+    margin:0;
     box-sizing: border-box;
+}
+
+body {   
     background: url(./assets/background.svg) no-repeat ;
      height: 100;
-
 }
 
 :root {
@@ -42,4 +45,9 @@ main p {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+}
+
+a {
+    color:white; 
+    padding: 12px 32px;   
 }
