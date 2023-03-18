@@ -1,21 +1,19 @@
 * {
     margin:0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
-body {   
-    background: url(./assets/background.svg) no-repeat ;
-     height: 100;
-}
-
-:root {
-  
- 
-}
-
-main {
-    padding: 160px 183px 341px;
-    text-align: center;
+body {
+    text-align: center;    
+    padding-top: 160px;
+    background-image: url(https://i.ibb.co/yPLT5PS/ba.jpg);     
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+    height: 100vh;
 }
 
 main h3 {
@@ -47,7 +45,31 @@ main p {
     line-height: 24px;
 }
 
+.botton {    
+    margin-top: 72px;
+}
+
 a {
     color:white; 
-    padding: 12px 32px;   
+    padding: 12px 32px; 
 }
+
+.play {
+    text-decoration: none;   
+    color: black;
+    background: #FFC700;
+   
+}
+
+.read-more {
+    transition: .2s;
+}
+
+.read-more:hover { 
+    background: #FFC700;   
+    color: black;
+    opacity: 1;
+    
+    border: none;
+}
+
